@@ -10,6 +10,7 @@
             Console.ReadLine();
         }
 
+        //Convert from Upper Case to Lower Case
         static void UpperToLower(List<char> Input)
         {
             Console.WriteLine($"The input is {string.Join("", Input)}");
@@ -21,6 +22,7 @@
             Console.WriteLine($"The output is {string.Join("", Input)}");
         }
 
+        //Convert from Lower Case to Upper Case
         static void LowerToUpper(List<char> Input)
         {
             Console.WriteLine($"The input is {string.Join("", Input)}");
@@ -32,6 +34,7 @@
             Console.WriteLine($"The output is {string.Join("", Input)}");
         }
 
+        //Switch Cases from Upper to Lower and Vice Versa
         static void SwitchingCase(List<char> Input)
         {
             Console.WriteLine($"The input is {string.Join("", Input)}");
